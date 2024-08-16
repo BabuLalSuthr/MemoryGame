@@ -28,7 +28,7 @@ namespace MemoryGame.WPF.ViewModels
             ColorGameEngine.StartVerifyNodes();
         }
 
-        private int totalNodes;
+        private int totalNodes = 4;
 
         public int TotalNodes
         {
